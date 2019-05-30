@@ -9,7 +9,7 @@ app.set('views',__dirname+'/views')
 app.set('layout','layouts/layout')
 app.use(expresslayout)
 app.use(express.static('public'))
-mongoose.connect("mongodb+srv://Thamaraiselvan:Thamarai@123@cluster0-66r7n.mongodb.net/test?retryWrites=true",{
+mongoose.connect("mongodb+srv://Thamaraiselvan:/* pAssword */@cluster0-66r7n.mongodb.net/test?retryWrites=true",{
     useNewUrlParser:true
 })
 const db=mongoose.connection;
